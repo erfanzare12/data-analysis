@@ -4,7 +4,7 @@ from plotly import graph_objects as go
 from matplotlib import pyplot as plt
 
 
-df = pd.read_csv(R"D:\python_src\DA_finalproject\result.csv")
+df = pd.read_csv("result.csv")
 
 st.title("Bitcoin(in the 5 last years)")
 
